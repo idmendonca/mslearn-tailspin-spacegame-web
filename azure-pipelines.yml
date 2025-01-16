@@ -1,7 +1,8 @@
 trigger:
 - main
 
-pool: teste
+pool: 
+  name: Default
 
 
 steps:

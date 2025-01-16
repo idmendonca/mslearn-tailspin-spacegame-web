@@ -1,11 +1,8 @@
 trigger:
 - main
 
-pool:
- name: teste
+pool: teste
 
-variables:
- buildConfiguration: 'Release'
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
